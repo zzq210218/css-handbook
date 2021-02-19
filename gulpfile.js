@@ -472,7 +472,7 @@ gulp.task("chm", function() {
 			fs.writeFileAsync("css.hhk", iconv.encode(hhk, "gbk")),
 			fs.writeFileAsync("css.hhp", iconv.encode(hhp, "gbk")),
 		]);
-	}).then(build);
+	});
 });
 
 
